@@ -1,0 +1,1338 @@
+[
+  {
+    "id":1,
+    "nom":"Maison de la Prévention Santé",
+    "adresse":"6 rue Maguelone 340000 Montpellier",
+    "tel":"04 67 02 21 60",
+    "coordX":"3,87952263361082",
+    "coordY":"43,6071285339217"
+  },
+  {
+    "id":2,
+    "nom":"Hôtel de Ville",
+    "adresse":"1 place Georges Frêche 34267 Montpellier",
+    "tel":"04 67 34 44 93",
+    "coordX":"3,89652239197876",
+    "coordY":"43,5987299452849"
+  },
+  {
+    "id":3,
+    "nom":"Zoo de Lunaret",
+    "adresse":"50 avenue Agropolis 34090 Montpellier",
+    "tel":"04 67 54 45 23",
+    "coordX":"3,87388031141133",
+    "coordY":"43,6395872778854"
+  },
+  {
+    "id":4,
+    "nom":"Centre municipal Garosud",
+    "adresse":"34000 Montpellier",
+    "tel":"04 67 34 74 62",
+    "coordX":"3,85859221929501",
+    "coordY":"43,5725732056683"
+  },
+  {
+    "id":14,
+    "nom":"Service surveillance voie publique (ASVP)",
+    "adresse":"8 Avenue Louis Blanc",
+    "tel":"04 99 58 80 31-32",
+    "coordX":"3,87964814275905",
+    "coordY":"43,6144971208687"
+  },
+  {
+    "id":16,
+    "nom":"Poste de police Ecusson Centre ville",
+    "adresse":"19 bis Rue durand 34000 Montpellier",
+    "tel":"04 67 34 70 89",
+    "coordX":"3,87860749270054",
+    "coordY":"43,6050174770208"
+  },
+  {
+    "id":17,
+    "nom":"Unité Service Fourrière",
+    "adresse":"1945 avenue de toulouse",
+    "tel":" 04 67 06 10 51",
+    "coordX":"3,85396082760103",
+    "coordY":"43,5873825371736"
+  },
+  {
+    "id":18,
+    "nom":"Poste de police Hotel de ville",
+    "adresse":"789 chemin de moulares",
+    "tel":"",
+    "coordX":"3,89399056177745",
+    "coordY":"43,5988579879724"
+  },
+  {
+    "id":20,
+    "nom":"Palais des sports Pierre-de-Coubertin",
+    "adresse":"Avenue de Naples 34000 Montpellier",
+    "tel":"04 67 03 02 24",
+    "coordX":"3,81388672389191",
+    "coordY":"43,6382964524906"
+  },
+  {
+    "id":21,
+    "nom":"Gymnase François Spinosi",
+    "adresse":"Rue de la Cavalade 34000 Montpellier",
+    "tel":"04 67 15 90 35",
+    "coordX":"3,91771560379933",
+    "coordY":"43,5989740159529"
+  },
+  {
+    "id":22,
+    "nom":"Plateau sportif de Grammont Terrain 9, 10, 11",
+    "adresse":"Avenue Albert Einstein 34000 Montpellier",
+    "tel":"04 67 64 29 43",
+    "coordX":"3,93528362675365",
+    "coordY":"43,6141400501416"
+  },
+  {
+    "id":23,
+    "nom":"Maison de la Démocratie",
+    "adresse":"16, rue de la République  34 Montpellier",
+    "tel":"04 67 34 88 00",
+    "coordX":"3,87908231371128",
+    "coordY":"43,605322134559"
+  },
+  {
+    "id":24,
+    "nom":"Gymnase Albert Batteux",
+    "adresse":"150 rue François-Joseph-Gossec 34000 Montpellier",
+    "tel":"04 67 03 02 24",
+    "coordX":"3,85685695958441",
+    "coordY":"43,5740760521572"
+  },
+  {
+    "id":25,
+    "nom":"Gymnase Bernard-Jouanique",
+    "adresse":"Rue Jaques-Dalcroze  34080 Montpellier",
+    "tel":"04 67 54 63 99 ",
+    "coordX":"3,84713719383276",
+    "coordY":"43,6209657932612"
+  },
+  {
+    "id":26,
+    "nom":"Stade Municipal Sabathé",
+    "adresse":"Impasse Saint-Cléophas 34000 Montpellier",
+    "tel":"04 67 47 10 22",
+    "coordX":"3,87069461025189",
+    "coordY":"43,5979909515727"
+  },
+  {
+    "id":27,
+    "nom":"Salle de Sports Alain Achille",
+    "adresse":"1 place Marcel-Godechot  34000 Montpellier",
+    "tel":"04 67 15 90 35",
+    "coordX":"3,86929208332712",
+    "coordY":"43,6186500172655"
+  },
+  {
+    "id":28,
+    "nom":"Gymnase Alain Le Hetet",
+    "adresse":"237 route de Vauguières 34 Montpellier",
+    "tel":"04 67 65 39 69",
+    "coordX":"3,90623909083357",
+    "coordY":"43,6056481110058"
+  },
+  {
+    "id":29,
+    "nom":"Maison pour tous Albert Dubout",
+    "adresse":"1071 avenue de la Justice de Castelnau  34090 Montpellier",
+    "tel":"04 67 02 68 58",
+    "coordX":"3,88249943562772",
+    "coordY":"43,6264526269792"
+  },
+  {
+    "id":30,
+    "nom":"Maison pour tous  Albert Camus",
+    "adresse":"118 allée Maurice-Bonafos  34080 Montpellier",
+    "tel":"04 67 27 3341",
+    "coordX":"3,86999152558735",
+    "coordY":"43,5968636559527"
+  },
+  {
+    "id":31,
+    "nom":"Mairie annexe de proximité Mosson",
+    "adresse":"111 place de Tipasa  Mas de la Paillade 34080 Montpellier",
+    "tel":"04 67 75 19 10 ",
+    "coordX":"3,81644667226683",
+    "coordY":"43,6280352697417"
+  },
+  {
+    "id":32,
+    "nom":"Maison pour tous  François Villon",
+    "adresse":"Rue des Araucarias  34080 Montpellier",
+    "tel":"04 67 45 04 57 ",
+    "coordX":"3,839535231275",
+    "coordY":"43,6153516866351"
+  },
+  {
+    "id":33,
+    "nom":"Maison pour tous   Mélina Mercouri",
+    "adresse":"842 rue de la Vieille Poste  34 Montpellier",
+    "tel":"04 99 92 23 80",
+    "coordX":"3,90822213186834",
+    "coordY":"43,6134538722091"
+  },
+  {
+    "id":35,
+    "nom":"Cimetière Saint-lazare",
+    "adresse":"2 rond-point du Souvenir Français 34000 Montpellier",
+    "tel":"04 67 75 34 46 ",
+    "coordX":"3,93613553570902",
+    "coordY":"43,6154360341943"
+  },
+  {
+    "id":36,
+    "nom":"Cimetière Saint-Etienne",
+    "adresse":"Avenue Albert Einstein 34000 Montpellier",
+    "tel":"04 99 52 87 35 ",
+    "coordX":"3,88995587137398",
+    "coordY":"43,6260090150577"
+  },
+  {
+    "id":37,
+    "nom":"Piscine PITOT",
+    "adresse":"40 Allée J.RAYMOND MONTPELLIER",
+    "tel":"04 67 52 58 89",
+    "coordX":"3,870303933901",
+    "coordY":"43,6123825678961"
+  },
+  {
+    "id":38,
+    "nom":"Piscine A. NAKACHE",
+    "adresse":"237 route de Vauguières MONTPELLIER",
+    "tel":"04 67 22 57 05",
+    "coordX":"3,90629916344486",
+    "coordY":"43,6064087905768"
+  },
+  {
+    "id":39,
+    "nom":"Piscine J. TARIS",
+    "adresse":"67 rue L.Michel MONTPELLIER",
+    "tel":"04 67 79 03 11",
+    "coordX":"3,90104518912559",
+    "coordY":"43,6205269425253"
+  },
+  {
+    "id":41,
+    "nom":"Piscine J. VIVES",
+    "adresse":"1933 AVENUE DE Maurin MONTPELLIER",
+    "tel":"04 67 27 74 79",
+    "coordX":"3,87258256366286",
+    "coordY":"43,5878357304832"
+  },
+  {
+    "id":40,
+    "nom":"Piscine M. SPILLIART",
+    "adresse":"154 Rue C.DESMOULINS MONTPELLIER",
+    "tel":"04 67 42 00 92",
+    "coordX":"3,8431426079266",
+    "coordY":"43,5982457580602"
+  },
+  {
+    "id":42,
+    "nom":"Piscine S. BERLIOUX",
+    "adresse":"551 rue Métairie de Saysset MONTPELLIER",
+    "tel":"04 67 65 38 71",
+    "coordX":"3,89523245626307",
+    "coordY":"43,5904333774241"
+  },
+  {
+    "id":43,
+    "nom":"Piscine NEPTUNE",
+    "adresse":"Avenue de Heidelberg MONTPELLIER",
+    "tel":"04 67 75 34 93",
+    "coordX":"3,89308118861399",
+    "coordY":"43,6074454675728"
+  },
+  {
+    "id":44,
+    "nom":"Piscine OLYMPIQUE ANTIGONE",
+    "adresse":"195 avenue J.CARTIER MONTPELLIER",
+    "tel":"04 67 15 63 04",
+    "coordX":"3,81486874802702",
+    "coordY":"43,6203748477124"
+  },
+  {
+    "id":45,
+    "nom":"STADE DE LA MOSSON",
+    "adresse":"Avenue de Heidelberg MONTPELLIER",
+    "tel":"  04 67 75 74 16",
+    "coordX":"3,81316555213326",
+    "coordY":"43,6218734166524"
+  },
+  {
+    "id":46,
+    "nom":"STADE Y. DU MANOIR",
+    "adresse":"Avenue de la Vannière MONTPELLIER",
+    "tel":"04 67 13 60 00",
+    "coordX":"3,85003952312189",
+    "coordY":"43,5936065771106"
+  },
+  {
+    "id":47,
+    "nom":"PALAIS DES SPORTS R.BOUGNOL",
+    "adresse":"1000, avenue du Val de Montferrand MONTPELLIER",
+    "tel":"04 67 52 76 14",
+    "coordX":"3,87431554927809",
+    "coordY":"43,6380433134334"
+  },
+  {
+    "id":48,
+    "nom":"PATINOIRE VEGAPOLIS",
+    "adresse":"Place de France MONTPELLIER",
+    "tel":"04 99 522 600",
+    "coordX":"3,91489059571308",
+    "coordY":"43,6029210639592"
+  },
+  {
+    "id":49,
+    "nom":"CAP OMEGA",
+    "adresse":"Rond point Benjamin Franklin  MONTPELLIER",
+    "tel":" 04 67 59 30 01",
+    "coordX":"3,91427706121347",
+    "coordY":"43,618609351242"
+  },
+  {
+    "id":50,
+    "nom":"S.F.M.A.",
+    "adresse":"Avenue Albert EINSTEIN MONTPELLIER",
+    "tel":" 04 67 22 83 78",
+    "coordX":"3,93573870254207",
+    "coordY":"43,6156043738023"
+  },
+  {
+    "id":51,
+    "nom":"MUSEE FABRE",
+    "adresse":"13, rue Montpelliéret 34000 Montpellier",
+    "tel":" 04 67 14 83 00",
+    "coordX":"3,88015202860524",
+    "coordY":"43,6117202928099"
+  },
+  {
+    "id":52,
+    "nom":"MEDIATHEQUE E.ZOLA",
+    "adresse":"218 Bd de l'Aéroport International 34000 Montpellier",
+    "tel":" 04 67 34 87 00",
+    "coordX":"3,89315695628937",
+    "coordY":"43,6084838193755"
+  },
+  {
+    "id":53,
+    "nom":"DOMAINE DE LA PROVIDENCE",
+    "adresse":"1784 Avenue de TOULOUSE MONTPELLIER",
+    "tel":" 04 99 64 25 80",
+    "coordX":"3,85389341433135",
+    "coordY":"43,5886305406899"
+  },
+  {
+    "id":54,
+    "nom":"RDC PAVILLON JUNON",
+    "adresse":"50 Place Zeus MONTPELLIER",
+    "tel":" 04 67 13 69 27",
+    "coordX":"3,89083244140238",
+    "coordY":"43,6081660748674"
+  },
+  {
+    "id":55,
+    "nom":"RDC PAVILLON ZEUS",
+    "adresse":"50 Place Zeus MONTPELLIER",
+    "tel":" 04 67 13 69 27",
+    "coordX":"3,89081696430097",
+    "coordY":"43,6078670518814"
+  },
+  {
+    "id":58,
+    "nom":"PAVILLON ZEUS (Salle Marianne)",
+    "adresse":"50 Place Zeus MONTPELLIER",
+    "tel":" 04 67 13 69 27",
+    "coordX":"3,89066621413495",
+    "coordY":"43,6077521695801"
+  },
+  {
+    "id":56,
+    "nom":"E.S.B.A.M.A.",
+    "adresse":"130 , RUE YEHUDI MONTPELLIER",
+    "tel":" 04 99 58 32 87",
+    "coordX":"3,88438064294719",
+    "coordY":"43,6169436571347"
+  },
+  {
+    "id":57,
+    "nom":"MONTPELLIER DANCE",
+    "adresse":"18 Rue Sainte Ursule MONTPELLIER",
+    "tel":" 04 67 60 83 60",
+    "coordX":"3,87836849830977",
+    "coordY":"43,6139908031415"
+  },
+  {
+    "id":59,
+    "nom":"CRR",
+    "adresse":"14 Rue Eugène Lisbonne 34000 Montpellier",
+    "tel":" 04 67 66 88 46",
+    "coordX":"3,87409666178277",
+    "coordY":"43,610433894746"
+  },
+  {
+    "id":60,
+    "nom":"TAM",
+    "adresse":"Parking comédie centre ville",
+    "tel":"04 67 07 63 79",
+    "coordX":"3,88022104344314",
+    "coordY":"43,6089439889165"
+  },
+  {
+    "id":61,
+    "nom":"TAM",
+    "adresse":"Parking Corum",
+    "tel":"04 67 07 63 79",
+    "coordX":"3,88238703743398",
+    "coordY":"43,6140271812289"
+  },
+  {
+    "id":62,
+    "nom":"CCAS (Banque d'Acceuil)",
+    "adresse":"125 place  Thermidor 34000  MONTPELLIER",
+    "tel":"04 99  52 77 53 / 06 14 09 40 21",
+    "coordX":"3,89927443503256",
+    "coordY":"43,6020241114814"
+  },
+  {
+    "id":65,
+    "nom":"Université Montpellier 1 UFR d'Economie (1er étage, à côté des bureaux de l'administration)",
+    "adresse":"Avenue Raymond Dugrand CS 79606 34960 MONTPELLIER Cedex 2",
+    "tel":"04 34 43 24 44",
+    "coordX":"3,89956530126954",
+    "coordY":"43,6037248716731"
+  },
+  {
+    "id":66,
+    "nom":"Université  Montpellier 1   UFR AES  (1er étage, en face de la salle des professeurs)",
+    "adresse":"Espace Richter  Avenue Raymond Dugrand   CS 59640   34960 MONTPELLIER   Cedex 2",
+    "tel":"04 34 43 23 33",
+    "coordX":"3,89991643490189",
+    "coordY":"43,6031038225234"
+  },
+  {
+    "id":64,
+    "nom":"Université  Montpellier 1   ISEM IPAG   (Loge)",
+    "adresse":"Espace Richter Bât b Vendémiaire  CS 19519  34960 MONTPELLIER Cedex 2",
+    "tel":"ISEM :     04 34 43 20 00 IPAG :    04 67 15 85 46",
+    "coordX":"3,89904523736634",
+    "coordY":"43,6042583430944"
+  },
+  {
+    "id":63,
+    "nom":"Université  Montpellier 1   Services Mutualisés Richter    PC Securité",
+    "adresse":"Espace Richter Bât E, BIU, MdE, Rue  Vendémiaire  CS 19519  34960 MONTPELLIER Cedex 2",
+    "tel":"",
+    "coordX":"3,89848334164309",
+    "coordY":"43,6041786988646"
+  },
+  {
+    "id":67,
+    "nom":"Université  Montpellier 1   UFR Droit     (accueil bâtiment1)",
+    "adresse":"39 rue de l'université  34060 Montpellier   Cedex 2",
+    "tel":"04 67 61 54 00",
+    "coordX":"3,87717345678089",
+    "coordY":"43,6140582253597"
+  },
+  {
+    "id":68,
+    "nom":"Université  Montpellier 1   UFR Droit     (accueil bâtiment2)",
+    "adresse":"",
+    "tel":"",
+    "coordX":"3,87633518840488",
+    "coordY":"43,6138609333465"
+  },
+  {
+    "id":69,
+    "nom":"Université  Montpellier 1   UFR Médecine     (Loge bâtiment Historique)",
+    "adresse":"2 rue Ecole de Médecine   CS 59001  34060 MONTPELLIER  Cedex 2",
+    "tel":"04 67 60 10 00",
+    "coordX":"3,87354913287527",
+    "coordY":"43,612951860071"
+  },
+  {
+    "id":70,
+    "nom":"Université  Montpellier 1   UFR Médecine     (Loge Institut biologie)",
+    "adresse":"",
+    "tel":"",
+    "coordX":"3,87409700190794",
+    "coordY":"43,6150688127327"
+  },
+  {
+    "id":71,
+    "nom":"Université  Montpellier 1   UFR Odontologie    (Hall Premier Etage Bât A)",
+    "adresse":"545, avenue du Professeur J.L Viala   34193 MONTPELLIER  Cedex 5",
+    "tel":"04 67 10 44 70",
+    "coordX":"3,82353507060243",
+    "coordY":"43,6362497267334"
+  },
+  {
+    "id":72,
+    "nom":"Université  Montpellier 1   UFR Pharmacie    (LogeBât A)",
+    "adresse":"15, avenue Charles Flahault    BP 14491  34093 MONTPELLIER    Cedex 5",
+    "tel":"04 67 54 80 00",
+    "coordX":"3,86189868456889",
+    "coordY":"43,6232360922128"
+  },
+  {
+    "id":73,
+    "nom":"Université  Montpellier 1   UFR Pharmacie    (Galerie à côté de la pharmacie expérimentale)",
+    "adresse":"",
+    "tel":"",
+    "coordX":"3,86034021457447",
+    "coordY":"43,6220496094564"
+  },
+  {
+    "id":74,
+    "nom":"Université  Montpellier 1   UFR Staps    (Bâtiment A)",
+    "adresse":"700, avenue du Pic    Saint-Loup   34090 MONTPELLIER",
+    "tel":"04 67 41 57 00",
+    "coordX":"3,8538650451542",
+    "coordY":"43,640831368515"
+  },
+  {
+    "id":75,
+    "nom":"Université  Montpellier 1   UFR Staps    (P1)",
+    "adresse":"",
+    "tel":"",
+    "coordX":"3,84875782514269",
+    "coordY":"43,6393278958929"
+  },
+  {
+    "id":76,
+    "nom":"Université  Montpellier 1   UFR Staps    (Palais des Sports)",
+    "adresse":"",
+    "tel":"",
+    "coordX":"3,84872346174789",
+    "coordY":"43,6401970759746"
+  },
+  {
+    "id":77,
+    "nom":"Université  Montpellier 2   PC Securite",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86080925535177",
+    "coordY":"43,6320478884427"
+  },
+  {
+    "id":79,
+    "nom":"Université  Montpellier 2   Secrétariat IAE",
+    "adresse":"place Eugène Bataillon 34095 MONTPELLIER CEDEX 5   ",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86173924182999",
+    "coordY":"43,6324310982988"
+  },
+  {
+    "id":78,
+    "nom":"Université  Montpellier 2   Couloir  de la présidence 1er étage",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86403637133178",
+    "coordY":"43,6320955198071"
+  },
+  {
+    "id":80,
+    "nom":"Université  Montpellier 2   Laboratoire AREVA",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86719128258212",
+    "coordY":"43,6340354958767"
+  },
+  {
+    "id":81,
+    "nom":"Université  Montpellier 2   SCOPPS",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86651938060978",
+    "coordY":"43,6329423512668"
+  },
+  {
+    "id":82,
+    "nom":"Université  Montpellier 2   Laboratoire L2C",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86500072175922",
+    "coordY":"43,6325272513173"
+  },
+  {
+    "id":86,
+    "nom":"Université  Montpellier 2   Centre Sportif Universitaire     Piscine",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86372265447782",
+    "coordY":"43,6347707699201"
+  },
+  {
+    "id":85,
+    "nom":"Université  Montpellier 2   Centre Sportif Universitaire     Gymnase",
+    "adresse":"Rue Emile Jeanbreau",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86411975731741",
+    "coordY":"43,634431102342"
+  },
+  {
+    "id":84,
+    "nom":"Université  Montpellier 2   HALL IEM",
+    "adresse":"",
+    "tel":"04 67 14 31 11",
+    "coordX":"3,86621601700653",
+    "coordY":"43,6350134840932"
+  },
+  {
+    "id":88,
+    "nom":"Universite paul valery montpellier 3  Loge Entrée",
+    "adresse":"Av. Val de montferrand   34199 MONTPELLIER",
+    "tel":"04 67 14 55 23",
+    "coordX":"3,86987294089832",
+    "coordY":"43,6310996420996"
+  },
+  {
+    "id":89,
+    "nom":"Universite paul valery   montpellier  batiment Marc Bloch",
+    "adresse":"Route de mende   34199 MONTPELLIER",
+    "tel":"04 67 14 55 23",
+    "coordX":"3,86914576305111",
+    "coordY":"43,6327403750896"
+  },
+  {
+    "id":90,
+    "nom":"Université Paul Valéry  montpellier 3  Site Saint Charles    Loge Entrée",
+    "adresse":"Rue du Professeur  Henri Serre  34080 MONTPELLIER     Arrêt tram \" albert 1er\"",
+    "tel":"04 67 14 55 23",
+    "coordX":"3,87378574801668",
+    "coordY":"43,6165624740146"
+  },
+  {
+    "id":91,
+    "nom":"Montpellier Ecole National Supérieure de Chimie",
+    "adresse":"8, rue de l'école Normale   34000 MONTPELLIER",
+    "tel":"04 67 14 72 83",
+    "coordX":"3,86759222312708",
+    "coordY":"43,6208396831232"
+  },
+  {
+    "id":92,
+    "nom":"Montpellier Ecole National Supérieure de Chimie  (Laboratoire)",
+    "adresse":"104, rue de la galéra  34090 MONTPELLIER",
+    "tel":"04 67 14 72 83",
+    "coordX":"3,83738323298412",
+    "coordY":"43,6371761537967"
+  },
+  {
+    "id":93,
+    "nom":"Montpellier Ecole National Supérieure de Chimie",
+    "adresse":"220 - 276 rue de la galéra  34090 MONTPELLIER",
+    "tel":"04 67 14 72 83",
+    "coordX":"3,83828534323613",
+    "coordY":"43,6375710817093"
+  },
+  {
+    "id":94,
+    "nom":"CROUS de MONTPELLIER  Restaurants Universitaires   Boutonnet",
+    "adresse":"2, Rue Emile Duployé 34090 MONTPELLIER Cedex 01",
+    "tel":"04 67 63 52 06",
+    "coordX":"3,86940780515415",
+    "coordY":"43,6234756772261"
+  },
+  {
+    "id":95,
+    "nom":"CROUS de MONTPELLIER  Restaurants Universitaires    Triolet",
+    "adresse":"1061, av. Prof. Joseph Anglada  34090 MONTPELLIER",
+    "tel":"04 67 63 50 16",
+    "coordX":"3,86018125270489",
+    "coordY":"43,631191261367"
+  },
+  {
+    "id":96,
+    "nom":"CROUS de MONTPELLIER  Restaurants Universitaires   Vert-Bois",
+    "adresse":"205, rue de la Chênaie 34090 MONTPELLIER",
+    "tel":"04 67 63 66 45",
+    "coordX":"3,87086361964785",
+    "coordY":"43,6348289810456"
+  },
+  {
+    "id":98,
+    "nom":"CROUS de MONTPELLIER  Services Centraux",
+    "adresse":"2, rue Monteil  34033 Montpellier",
+    "tel":" 04 67 41 50 08",
+    "coordX":"3,87001135797271",
+    "coordY":"43,6224491662391"
+  },
+  {
+    "id":97,
+    "nom":"CROUS de MONTPELLIER  Restaurants Universitaires   Richter",
+    "adresse":"80, rue Brumaire- 34000 Montpellier",
+    "tel":"04 67 15 84 47",
+    "coordX":"3,89922794228039",
+    "coordY":"43,6028938663275"
+  },
+  {
+    "id":99,
+    "nom":"CREPS",
+    "adresse":"2 Avenue Charles Flahault   34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,86618003917991",
+    "coordY":"43,6191123089151"
+  },
+  {
+    "id":100,
+    "nom":"Maison des sports (Sport Et Psychologie) Hérault Sport",
+    "adresse":"200 avenue du Père Soulas     34090 MONTPELLIER",
+    "tel":"04 67 54 82 29",
+    "coordX":"3,86583323268375",
+    "coordY":"43,6183423905225"
+  },
+  {
+    "id":101,
+    "nom":"Hérault Sport",
+    "adresse":"747 avenue des apothicaires Parc Euromédecine      34090 Montpellier",
+    "tel":"04 67 54 82 29",
+    "coordX":"3,83559883662065",
+    "coordY":"43,6416646402407"
+  },
+  {
+    "id":103,
+    "nom":"Lycée Frédéric Bazille",
+    "adresse":"3224 route de Mende   34093 MONTPELLIER",
+    "tel":"04 67 63 89 87",
+    "coordX":"3,8639010584102",
+    "coordY":"43,6460180385688"
+  },
+  {
+    "id":104,
+    "nom":"Lycée Jean Mermoz",
+    "adresse":"717 avenue Jean Mermoz  34000 MONTPELLIER",
+    "tel":"04 67 20 60  00",
+    "coordX":"3,89080547314588",
+    "coordY":"43,610863473281"
+  },
+  {
+    "id":106,
+    "nom":"Lycée Léonard de Vinci",
+    "adresse":"Rue du Professeur Blayac    34085 MONTPELLIER cedex 4",
+    "tel":"04 67 10 40 10",
+    "coordX":"3,82313209556008",
+    "coordY":"43,6271809795402"
+  },
+  {
+    "id":105,
+    "nom":"Lycée Jules Ferry",
+    "adresse":"270 avenue de la colline     34070 MONTPELLIER",
+    "tel":"04 67 10 74 01",
+    "coordX":"3,84226731025644",
+    "coordY":"43,6052528635409"
+  },
+  {
+    "id":107,
+    "nom":"Caisse Primaire d'Assurance Maladie",
+    "adresse":"29 cours Gambetta  34000 MONTPELLIER",
+    "tel":"04 99 52 54 49",
+    "coordX":"3,87110915929521",
+    "coordY":"43,6065196099402"
+  },
+  {
+    "id":108,
+    "nom":"Caisse Primaire d'Assurance Maladie",
+    "adresse":"90 allée Almicare Calvetti   34000 Montpellier",
+    "tel":"04 99 52 54 49",
+    "coordX":"3,82126953167633",
+    "coordY":"43,6322018829039"
+  },
+  {
+    "id":109,
+    "nom":"Caisse d'assurance retraite et de la Santé au travail",
+    "adresse":"29 cours Gambetta  34000 MONTPELLIER",
+    "tel":"04 67 12 94 72",
+    "coordX":"3,87064343057042",
+    "coordY":"43,6068847626242"
+  },
+  {
+    "id":110,
+    "nom":"Caisse d'assurance retraite et de la Santé au travail",
+    "adresse":"Century 2 , 101 place pierre Duhem  le millenaire    34000 MONTPELLIER",
+    "tel":"04 67 12 94 72",
+    "coordX":"3,91465549573187",
+    "coordY":"43,6068978500869"
+  },
+  {
+    "id":111,
+    "nom":"Préfecture de l'Hérault",
+    "adresse":"34 Place des Martyrs de la résistance  34000 MONTPELLIER",
+    "tel":"04 67 61 60 45",
+    "coordX":"3,87675679668135",
+    "coordY":"43,6114960399587"
+  },
+  {
+    "id":113,
+    "nom":"Cour d'appel",
+    "adresse":"1 rue Foch  34000 MONTPELLIER",
+    "tel":"04 34 08 81 92",
+    "coordX":"3,87282071734522",
+    "coordY":"43,6112848970996"
+  },
+  {
+    "id":112,
+    "nom":"Tribunal de grande instance",
+    "adresse":"Place Pierre Flotte  34000 MONTPELLIER",
+    "tel":"04 67 12 61 09",
+    "coordX":"3,86914794017784",
+    "coordY":"43,6102006063269"
+  },
+  {
+    "id":115,
+    "nom":"Gare Sncf de Montpellier St Roch",
+    "adresse":"1, Place Auguste Gibert  34000 MONTPELLIER",
+    "tel":"06 25 91 00 28",
+    "coordX":"3,88084502925211",
+    "coordY":"43,6047523852628"
+  },
+  {
+    "id":114,
+    "nom":"Hotel de Police de Montpellier",
+    "adresse":"206 avenue du Comté de Melgueil  34000 MONTPELLIER",
+    "tel":"04 99 13 50 00",
+    "coordX":"3,89161633267666",
+    "coordY":"43,603513899768"
+  },
+  {
+    "id":116,
+    "nom":"Pharmacie de L'Europe",
+    "adresse":"2600 avenue de l'europe   34080 MONTPELLIER",
+    "tel":"04 67 75 16 37",
+    "coordX":"3,82007583943153",
+    "coordY":"43,6418758605771"
+  },
+  {
+    "id":117,
+    "nom":"Pharmacie de l'ovalie",
+    "adresse":"2750 Boulevard Paul Valery  34070 MONTPELLIER",
+    "tel":"04 67 27 71 72",
+    "coordX":"3,84964180769663",
+    "coordY":"43,5950383978097"
+  },
+  {
+    "id":118,
+    "nom":"Pharmacie Ravoire",
+    "adresse":"33, Rue du Faubourg Saint JAUMES  34000 MONTPELLIER",
+    "tel":"04 67 63 38 84",
+    "coordX":"3,86983030264785",
+    "coordY":"43,6147553510548"
+  },
+  {
+    "id":119,
+    "nom":"Citroen montpellier",
+    "adresse":"730 Avenue des pres d'arenes   34000 MONTPELLIER",
+    "tel":"04 67 12 67 01",
+    "coordX":"3,88299732333175",
+    "coordY":"43,5906567856049"
+  },
+  {
+    "id":120,
+    "nom":"Grand Garage de l'Hérault Peugeot Montpellier   (commerce)",
+    "adresse":"905 rue de l'industrie     34007 MONTPELLIER",
+    "tel":"04 67 06 25 02     04 67 06 25 25",
+    "coordX":"3,88118576492958",
+    "coordY":"43,5829591529706"
+  },
+  {
+    "id":121,
+    "nom":"Grand Garage de l'Hérault Peugeot Montpellier   (atelier)",
+    "adresse":"905 rue de l'industrie     34007 MONTPELLIER",
+    "tel":"04 67 06 25 02     04 67 06 25 25",
+    "coordX":"3,88146330454406",
+    "coordY":"43,5835668089934"
+  },
+  {
+    "id":122,
+    "nom":"Centre commercial Polygone  PC Sécurité   (es1 montpellier)",
+    "adresse":"1 rue des Pertuisanes   34000 MONTPELLIER",
+    "tel":"04 67 99 41 60",
+    "coordX":"3,88578382216927",
+    "coordY":"43,6083221486189"
+  },
+  {
+    "id":123,
+    "nom":"Fnac Montpellier",
+    "adresse":"Centre cial Le Polygone   1 rue des Pertuisanes   34000 MONTPELLIER",
+    "tel":"04 34 09 06 55",
+    "coordX":"3,88567011518647",
+    "coordY":"43,6085330470563"
+  },
+  {
+    "id":124,
+    "nom":"Galeries La Fayette",
+    "adresse":"Centre cial Le Polygone   1 rue des Pertuisanes  BP 3521   34000 MONTPELLIER",
+    "tel":"04 67 64 83 00",
+    "coordX":"3,88553285006607",
+    "coordY":"43,6081092231254"
+  },
+  {
+    "id":125,
+    "nom":"Géant casino   Prés d'Arènes   (Pc Sécurité)",
+    "adresse":" 504 Avenue du mas  d'argelliers   34070 MONTPELLIER",
+    "tel":"04 67 86 43 69",
+    "coordX":"3,88808523342942",
+    "coordY":"43,586264441135"
+  },
+  {
+    "id":126,
+    "nom":"Géant casino   Celleneuve    (Pc Sécurité)",
+    "adresse":"129 bis avenue de Lodève    34070 MONTPELLIER",
+    "tel":"04 67 86 43 69  04 99  77 34 00",
+    "coordX":"3,83992052015185",
+    "coordY":"43,6125224275035"
+  },
+  {
+    "id":127,
+    "nom":"Centre Commercial Odysseum",
+    "adresse":"2 place de Lisbonne   34000 MONTPELLIER",
+    "tel":"04 67 13 50 55",
+    "coordX":"3,92046106179072",
+    "coordY":"43,6045260331335"
+  },
+  {
+    "id":128,
+    "nom":"Magasin IKEA",
+    "adresse":"Odysseum   34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,92438329923687",
+    "coordY":"43,6041477817148"
+  },
+  {
+    "id":129,
+    "nom":"Chronopost",
+    "adresse":"1129  Rue de la castelle  34070 MONTPELLIER",
+    "tel":"04 67 99 11 03   06 69 58 35 62",
+    "coordX":"3,86885461893472",
+    "coordY":"43,5772303319782"
+  },
+  {
+    "id":130,
+    "nom":"DELL",
+    "adresse":"1 rond-point Benjamin Franklin  34000 MONTPELLIER",
+    "tel":"06 58 57 85 24",
+    "coordX":"3,91169360147975",
+    "coordY":"43,6184228864032"
+  },
+  {
+    "id":131,
+    "nom":"France 3 Sud Montpellier",
+    "adresse":"10 allée John Napier   34000 MONTPELLIER",
+    "tel":"04 67 20 30 40",
+    "coordX":"3,90921459780798",
+    "coordY":"43,6145658661223"
+  },
+  {
+    "id":132,
+    "nom":"France Telecom",
+    "adresse":"245 rue de la Galéra    34000 MONTPELLIER",
+    "tel":"04 67 14 66 66",
+    "coordX":"3,83704301955449",
+    "coordY":"43,6384175720502"
+  },
+  {
+    "id":133,
+    "nom":"Sanofi Aventis",
+    "adresse":"371 rue professeur Blayac  34000 MONTPELLIER",
+    "tel":"04 99 77 78 79",
+    "coordX":"3,82943569760855",
+    "coordY":"43,6234283430937"
+  },
+  {
+    "id":134,
+    "nom":"Veolia Eau",
+    "adresse":"765 rue Henri Becquerel  BP41246    34965 MONTPELLIER CEDEX 2",
+    "tel":"04 67 20 73 73  06 20 69 33 70",
+    "coordX":"3,91517278210411",
+    "coordY":"43,612096722739"
+  },
+  {
+    "id":135,
+    "nom":"Banque de France",
+    "adresse":"98 avenue de Lodève     34061 MONTPELLIER",
+    "tel":"04 67 06 79 74",
+    "coordX":"3,85350136943136",
+    "coordY":"43,6102729619807"
+  },
+  {
+    "id":136,
+    "nom":"Mutuelle des motards",
+    "adresse":"1056 rue de la croix verte   34294 MONTPELLIER",
+    "tel":"04 67 72 73 20",
+    "coordX":"3,84315528199888",
+    "coordY":"43,642457500046"
+  },
+  {
+    "id":137,
+    "nom":"Mutuelle des motards",
+    "adresse":"1027 rue de la croix verte   34294 MONTPELLIER",
+    "tel":"04 67 72 73 20",
+    "coordX":"3,84351021937092",
+    "coordY":"43,6430362920199"
+  },
+  {
+    "id":138,
+    "nom":"Groupama Sud",
+    "adresse":"Place Jean Antoine de Chaptal   34000 MONTPELLIER",
+    "tel":"04 67 34 78 86",
+    "coordX":"3,86748181412747",
+    "coordY":"43,6031265793569"
+  },
+  {
+    "id":139,
+    "nom":"Montpellier beton     SERVANT Prestations",
+    "adresse":"1, Rue de la Première Écluse  34070 MONTPELLIER",
+    "tel":"04 67 92 15 10",
+    "coordX":"3,89578183610751",
+    "coordY":"43,5877632296267"
+  },
+  {
+    "id":140,
+    "nom":"Hôtel IBIS Centre Comédie",
+    "adresse":"Allée Jules Milhau   Immeuble le Triangle   34000 MONTPELLIER",
+    "tel":"04 99 13 29 99",
+    "coordX":"3,88315927070696",
+    "coordY":"43,6089881225671"
+  },
+  {
+    "id":141,
+    "nom":"Hôtel IBIS Montpellier Sud",
+    "adresse":"164 avenue palavas     34070 MONTPELLIER",
+    "tel":"04 67  58 82 30",
+    "coordX":"3,89172749729087",
+    "coordY":"43,5892502551644"
+  },
+  {
+    "id":142,
+    "nom":"Hotel mercure",
+    "adresse":"Carrefour de l'aeroport   34000 MONTPELLIER",
+    "tel":"04 67 20 63 63",
+    "coordX":"3,8940718175978",
+    "coordY":"43,6089445631649"
+  },
+  {
+    "id":143,
+    "nom":"Hotel mercure centre",
+    "adresse":"Rue de la Spirale    34000 MONTPELLIER",
+    "tel":"04 67 99 89 89",
+    "coordX":"3,88547541488289",
+    "coordY":"43,6090902690373"
+  },
+  {
+    "id":144,
+    "nom":"Hôtel NOVOTEL",
+    "adresse":"125 avenue Palavas   34070 MONTPELLIER",
+    "tel":"04 99 52 34 34",
+    "coordX":"3,89234991103325",
+    "coordY":"43,5895487658564"
+  },
+  {
+    "id":145,
+    "nom":"CRS 56",
+    "adresse":"1 Rue Louis Lépine  34000 MONTPELLIER",
+    "tel":"04 67 13 17 00",
+    "coordX":"3,90653250762828",
+    "coordY":"43,6122198808195"
+  },
+  {
+    "id":146,
+    "nom":"Accueil clinique du millenaire   Accueil",
+    "adresse":"220 bd penelope     34000 MONTPELLIER",
+    "tel":"04 99 53 61 03",
+    "coordX":"3,91375491076165",
+    "coordY":"43,6020754291092"
+  },
+  {
+    "id":147,
+    "nom":"Accueil clinique du millenaire  Urgences",
+    "adresse":"220 bd penelope     34000 MONTPELLIER",
+    "tel":"04 99 53 61 03",
+    "coordX":"3,91353989374935",
+    "coordY":"43,6014966033821"
+  },
+  {
+    "id":148,
+    "nom":"Ametra",
+    "adresse":"201 place de Thessalie   34000 MONTPELLIER",
+    "tel":"04 67 84 76 40",
+    "coordX":"3,89226740440157",
+    "coordY":"43,6075603632208"
+  },
+  {
+    "id":149,
+    "nom":"apec",
+    "adresse":"170 rue leon blum    34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,89052741878513",
+    "coordY":"43,6087911504281"
+  },
+  {
+    "id":150,
+    "nom":"Arcade SFGE",
+    "adresse":"1-55 Rue de la Constituante  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,89422323604739",
+    "coordY":"43,6019066687056"
+  },
+  {
+    "id":151,
+    "nom":"ASPM SECTION AFPS",
+    "adresse":"1635 Avenue Albert Einstein  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,9167804322775",
+    "coordY":"43,6113532636814"
+  },
+  {
+    "id":152,
+    "nom":"Cafétéria UFR AES",
+    "adresse":"257-269 Rue Vendémiaire  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,89935218745248",
+    "coordY":"43,603025020351"
+  },
+  {
+    "id":153,
+    "nom":"Caisse MSA Languedoc",
+    "adresse":"4 place Jean Antoine de Chaptal  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,86725032663434",
+    "coordY":"43,6029957496972"
+  },
+  {
+    "id":154,
+    "nom":"Centre Mutualiste Neurologique PROPARA",
+    "adresse":"263 Rue du Caducée   34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,83221040954412",
+    "coordY":"43,6433843496942"
+  },
+  {
+    "id":155,
+    "nom":"Communaute d Agglomeration de Montpellier",
+    "adresse":"50 place Zeus",
+    "tel":"",
+    "coordX":"3,8906414844389",
+    "coordY":"43,6076132052153"
+  },
+  {
+    "id":156,
+    "nom":"D.D.S.I.S. HERAULT",
+    "adresse":"2 Rue Duval-Jouve  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,86542459122745",
+    "coordY":"43,610311327355"
+  },
+  {
+    "id":157,
+    "nom":"DDTM34 - site du Millénaire",
+    "adresse":"233 rue Guglielmo Marconi   34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,91125189536332",
+    "coordY":"43,6121330162831"
+  },
+  {
+    "id":158,
+    "nom":"Ecole Supérieure Des Beaux Arts",
+    "adresse":"130 Rue Yehudi Menuhin  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,88398298908056",
+    "coordY":"43,6171934153182"
+  },
+  {
+    "id":159,
+    "nom":"Faculté de Droit",
+    "adresse":"Rue de l'Ecole Mage  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,87687944359565",
+    "coordY":"43,6137132951212"
+  },
+  {
+    "id":160,
+    "nom":"faculte de pharmacie",
+    "adresse":"15 avenue charles flahault  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,86185840432793",
+    "coordY":"43,6239506766346"
+  },
+  {
+    "id":161,
+    "nom":"fafsea",
+    "adresse":"2460 avenue albert einstein    34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,92771433730696",
+    "coordY":"43,6106200898298"
+  },
+  {
+    "id":162,
+    "nom":"Hotel des impots",
+    "adresse":"40 rue de louvois  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,81969688714667",
+    "coordY":"43,6323423132911"
+  },
+  {
+    "id":163,
+    "nom":"Inset de Montpellier",
+    "adresse":"76 Place de la Révolution   34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,89825148899358",
+    "coordY":"43,6039740268785"
+  },
+  {
+    "id":164,
+    "nom":"maison agriculture",
+    "adresse":"place chaptal    34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,86633327325595",
+    "coordY":"43,6038860913024"
+  },
+  {
+    "id":165,
+    "nom":"TALCO LR",
+    "adresse":"40 rue de Pinville  34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,90506063238055",
+    "coordY":"43,6138087474829"
+  },
+  {
+    "id":166,
+    "nom":"Zenith Sud",
+    "adresse":"avenue Albert Einstein    34000 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,93074702939992",
+    "coordY":"43,6128228432964"
+  },
+  {
+    "id":168,
+    "nom":"Action d'Urgence Internationale",
+    "adresse":"1401 rue de fontcouverte  34070 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,85255897515535",
+    "coordY":"43,5935288046927"
+  },
+  {
+    "id":169,
+    "nom":"Cfpmea",
+    "adresse":"501 des metairies de saysset  34070 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,89423707713714",
+    "coordY":"43,5906087749725"
+  },
+  {
+    "id":172,
+    "nom":"Amphitheatre d'O",
+    "adresse":"121 Rue de la Carriérasse  34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,83507767297601",
+    "coordY":"43,6351213340499"
+  },
+  {
+    "id":173,
+    "nom":"Bâtiment k Iut montpellier 2",
+    "adresse":"139 Avenue d'Occitanie  34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,85149578101552",
+    "coordY":"43,6350358178596"
+  },
+  {
+    "id":174,
+    "nom":"Bibliotheque st charles",
+    "adresse":"Rue auguste broussonnet  34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,87258316660111",
+    "coordY":"43,6155361363529"
+  },
+  {
+    "id":175,
+    "nom":"Centre de formation professionnel croix rouge",
+    "adresse":"Rue de la valesière   34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,83009545801086",
+    "coordY":"43,6415334891597"
+  },
+  {
+    "id":176,
+    "nom":"Chru",
+    "adresse":"Avenue Augustin Fliche  34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,86151292659671",
+    "coordY":"43,6295976450315"
+  },
+  {
+    "id":177,
+    "nom":"Chru euromed",
+    "adresse":"Rue du caduce  34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,8350137442276",
+    "coordY":"43,6425510639908"
+  },
+  {
+    "id":179,
+    "nom":"CHU Lapeyronie hall d'accueil",
+    "adresse":"Pont Lapeyronie     34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,85207580919409",
+    "coordY":"43,6301375533552"
+  },
+  {
+    "id":178,
+    "nom":"Chru lapeyronie",
+    "adresse":"Avenue du doyen gaston giraud     34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,85081289792181",
+    "coordY":"43,6313023033573"
+  },
+  {
+    "id":181,
+    "nom":"Ipl santé envirronement durable Méditerrranée",
+    "adresse":"778 rue de la croix verte  34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,84083465416705",
+    "coordY":"43,6447155674701"
+  },
+  {
+    "id":182,
+    "nom":"Les Jardins de Grasse",
+    "adresse":"1482 Rue de Saint-Priest     34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,83534242743301",
+    "coordY":"43,6375404910418"
+  },
+  {
+    "id":183,
+    "nom":"Parcs Nationaux de France",
+    "adresse":"1037 rue Jean François Breton     34090 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,87871736858804",
+    "coordY":"43,6474178784164"
+  },
+  {
+    "id":187,
+    "nom":"Cirad",
+    "adresse":"Avenue agropolis     34398 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,868430789818",
+    "coordY":"43,6504884118088"
+  },
+  {
+    "id":188,
+    "nom":"Mornay",
+    "adresse":"26 allee jules milhau  34965 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,88335468006384",
+    "coordY":"43,6090204423773"
+  },
+  {
+    "id":189,
+    "nom":"Boulodrome Bernard Gasset",
+    "adresse":"122 avenue Maurice Planès    34070 MONTPELLIER",
+    "tel":"",
+    "coordX":"3,84329169898554",
+    "coordY":"43,5967806501323"
+  }
+]

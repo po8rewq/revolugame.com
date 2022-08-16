@@ -1,0 +1,12 @@
+{
+	"timelaps": 5000,
+	"waves": [ 
+			{ "monsters": [0] },
+			{ "monsters": [0, 0, 0] },
+			{ "monsters": [0, 0, 0] },
+			{ "monsters": [1] },
+			{ "monsters": [0, 0, 0] },
+			{ "monsters": [0, 0, 0] },
+			{ "monsters": [0, 0, 1] }
+	]
+}
