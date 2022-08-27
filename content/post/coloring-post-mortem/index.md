@@ -5,6 +5,8 @@ image: "promo-screen-2.png"
 tags:
 - Haxe
 aliases: ["/2015/03/29/coloring-post-mortem.html"]
+categories:
+- games
 ---
 
 It took me a while but I finally did it.

@@ -6,6 +6,8 @@ tags:
 aliases: ["/2015/02/08/coloring-post-ld-update.html"]
 image: "screen-3.png"
 date: "2015-02-08"
+categories:
+- games
 ---
 
 It took me a while, but here is the new version of my [last LD entry](/work/ld31.html). 

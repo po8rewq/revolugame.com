@@ -5,6 +5,8 @@ tags:
 - Ludum Dare
 aliases: ["/2015/02/19/coloring-tutorial-preview.html"]
 date: "2015-02-19"
+categories:
+- games
 ---
 
 I have integrated a **tutorial** which is playable as a little party of **Coloring**.

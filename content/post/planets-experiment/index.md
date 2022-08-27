@@ -6,6 +6,8 @@ tags:
 - AGE
 - Haxe
 aliases: ["/2013/05/30/planets-experiment/"]
+categories:
+- games
 ---
 So now, it's officially the **1PAM** (one prototype a month).
 
