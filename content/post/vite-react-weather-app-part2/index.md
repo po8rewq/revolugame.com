@@ -6,7 +6,6 @@ tags:
  - weather-app
 categories:
  - tutorials
-draft: true
 ---
 
 > If you haven't already, read [part 1](/p/lets-build-a-weather-app-with-vite-and-react-part-1/) before starting.
