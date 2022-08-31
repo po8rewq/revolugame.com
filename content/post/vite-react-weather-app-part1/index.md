@@ -1,6 +1,7 @@
 ---
-title: Lets build a weather app with vite and react - part 1
+title: Let's build a weather app with vite and react - part 1
 date: 2022-08-16
+description: Intro to the project and setting up vitejs
 tags: 
  - weather-app
 categories:
@@ -15,7 +16,7 @@ The plan for this group of tutorials it to learn how to use vite, quickly build 
 
 ### Vitejs
 
-For this first part, lets start by creating the project:
+For this first part, let's start by creating the project:
 
 ![Installation steps](install.png)
 
@@ -27,14 +28,14 @@ Our folder structure will look like this:
 
 ### Additional libraries
 
-Lets install what we need.
+Let's install what we need.
 
 ```bash
 npm run install styled-components --save
 npm run install @types/styled-components --save-dev
 ```
 
-And while we are at it, lets install react-bootstrap:
+And while we are at it, let's install react-bootstrap:
 
 ```bash
 npm install react-bootstrap bootstrap --save
@@ -46,7 +47,7 @@ Each city will be clickable.
 
 ![A quick preview](img1.png)
 
-### Lets build the main page
+## Let's build the main page
 
 We only need a search bar, and a list of cities. The `CityList` component will be separate for clarity, and will have a `cities` property containing the results of our search.
 
@@ -124,4 +125,4 @@ Our first part is now done, we do have a project ready with hardcoded data.
 
 In our second part we will see how to search for cities using MapBox.
 
-Next step [Part 2](/p/lets-build-a-weather-app-with-vite-and-react-part-2/)
+> Next step [Part 2](/p/lets-build-a-weather-app-with-vite-and-react-part-2/)
