@@ -206,6 +206,13 @@ menu:
           params:
               icon: brand-linkedin
 
+        - identifier: ko-fi
+          name: Ko-fi
+          url: https://ko-fi.com/revolugame
+          weight: 40
+          params:
+              icon: coffee
+
 related:
     includeNewer: true
     threshold: 60

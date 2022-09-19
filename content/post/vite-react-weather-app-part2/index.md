@@ -2,6 +2,7 @@
 title: Let's build a weather app with vite and react - part 2
 date: 2022-08-27
 description: Mapbox integration
+image: pexels-aksonsat-uanthoeng-1078850.jpg
 tags: 
  - weather-app
 categories:

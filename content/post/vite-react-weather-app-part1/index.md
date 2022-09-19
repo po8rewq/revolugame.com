@@ -2,6 +2,7 @@
 title: Let's build a weather app with vite and react - part 1
 date: 2022-08-16
 description: Intro to the project and setting up vitejs
+image: pexels-realtoughcandycom-11035471.jpg
 tags: 
  - weather-app
 categories:
