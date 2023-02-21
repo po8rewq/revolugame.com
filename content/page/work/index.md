@@ -1,7 +1,8 @@
 ---
 title: 'Projects'
+readingTime: false
 menu:
-  main: 
+  main:
     weight: -90
     params:
       icon: infinity

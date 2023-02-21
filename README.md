@@ -16,4 +16,8 @@ To build everything before deployment:
 hugo
 ```
 
+For the theme: [Stack](https://stack.jimmycai.com/).
+
+In order to update the theme, just go to the [repo](https://github.com/CaiJimmy/hugo-theme-stack/releases/latest) and download the latest version.
+
 More doc [here](https://gohugo.io/).
