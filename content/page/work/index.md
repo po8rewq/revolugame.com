@@ -10,6 +10,17 @@ menu:
 
 <div class="grid projects">
 
+<div>
+<a href="https://sportcollab.com" target="_blank"><img src="sport-collab.png" /></a>
+    <div class="work-title">
+      <a href="https://sportcollab.com" target="_blank">SportCollab</a>
+    </div>
+    <div class="work-details">
+      <div>Web application, PWA</div>
+      <div>React, NextJs, Supabase</div>
+    </div>
+</div>
+
   <div>
     <a href="/projects/picross8"><img src="picross8.png" /></a>
     <div class="work-title">
