@@ -1,5 +1,5 @@
 ---
-title: Create a blog with supabase and nextjs
+title: Create a blog with supabase and nextjs - part 1
 description:
 date: 2023-02-28
 categories:

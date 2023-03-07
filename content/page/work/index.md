@@ -11,6 +11,18 @@ menu:
 <div class="grid projects">
 
 <div>
+<a href="/projects/job-search-aggregator" target="_blank"><img src="job-aggregator.png" /></a>
+<div class="work-title">
+<a href="/projects/job-search-aggregator" target="_blank">Job Search Aggregator</a>
+</div>
+<div class="work-details">
+<div>Web application</div>
+<div>React, NextJs, Supabase</div>
+</div>
+
+</div>
+
+<div>
 <a href="https://sportcollab.com" target="_blank"><img src="sport-collab.png" /></a>
     <div class="work-title">
       <a href="https://sportcollab.com" target="_blank">SportCollab</a>

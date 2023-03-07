@@ -15,3 +15,51 @@
     font-size: 1.4rem;
   }
 }
+
+
+.customized-gist {
+  .gist {
+    .gist-file {
+      margin-bottom: 0;
+      border: 1px dashed #adb5bd;
+      border-radius: 0;
+    }
+    
+    .gist-data {
+      border-bottom: none;
+      border-radius: 0;
+      background-color: #f1f3f5;
+    }
+    
+    .blob-wrapper {
+      border-radius: 0;
+    }
+    
+    .gist .highlight {
+      background-color: transparent;
+      font-family: 'Droid Sans Mono', monospace;
+      font-size: 14px;
+    }
+    
+    .highlight td {
+      padding: 5px 15px !important;
+      line-height: 1;
+      font-family: inherit;
+      font-size: inherit;
+    }
+    
+    tr:first-child td {
+      padding-top: 15px !important;
+    }
+    
+    tr:last-child td {
+      padding-bottom: 15px !important;
+    }
+    
+    .blob-num {
+      color: #ced4da;
+      background-color: #495057;
+      pointer-events: none;
+    }
+  }
+}
