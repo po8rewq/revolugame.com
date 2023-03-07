@@ -2,6 +2,7 @@
 title: Supabase initial DB migration
 description: This gist initialises the supabase database with the tables and functions we need for a basic app using auth.
 date: 2023-03-04
+readingTime: false
 categories:
   - tutorials
 tags:

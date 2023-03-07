@@ -14,7 +14,7 @@ languages:
 # disqusShortname: hugo-theme-stack
 
 # GA Tracking ID
-googleAnalytics: UA-31529899-1
+googleAnalytics: G-X15QSHMMN5 #UA-31529899-1
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -33,7 +33,8 @@ params:
     - post
   featuredImageField: image
   rssFullContent: true
-  favicon:
+  favicon: /shuttle.ico
+  description: I build stuff and write about it
 
   footer:
     since: 2009
