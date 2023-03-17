@@ -1,11 +1,11 @@
 ---
 title: 'Projects'
 readingTime: false
-menu:
-  main:
-    weight: -90
-    params:
-      icon: infinity
+# menu:
+#   main:
+#     weight: -90
+#     params:
+#       icon: infinity
 ---
 
 <div class="grid projects">

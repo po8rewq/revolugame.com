@@ -9,7 +9,8 @@ aliases:
   - about
 menu:
   main:
-    weight: -90
+    name: About
+    weight: -80
     params:
       icon: user
 ---
@@ -27,3 +28,5 @@ I am a **blogger**, **developer**, who likes prototyping things and testing new 
 ## You can find me here
 
 [![Github](https://img.shields.io/badge/Github-%2312100E.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/po8rewq) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/adrien-fischer-b8a1a836) [![DevTo](https://img.shields.io/badge/DevTo-%2312100E.svg?style=for-the-badge&logo=dev.to&logoColor=white)](https://dev.to/po8rewq) [![Itchio](https://img.shields.io/static/v1?label=&message=ItchIo&color=FA5C5C&logo=itch.io&logoColor=white&style=for-the-badge)](https://revolugame.itch.io/)
+
+## [Have a look at some of my projects](/projects)
