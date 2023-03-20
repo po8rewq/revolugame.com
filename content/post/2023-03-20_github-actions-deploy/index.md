@@ -1,5 +1,5 @@
 ---
-title: 'Gitbub actions: Deploy a Hugo website to a FTP server'
+title: 'Github actions: Deploy a Hugo website to a FTP server'
 description: How to build a Hugo website and deploy to a FTP server using Github actions
 date: 2023-03-20 10:00:00 +0000 UTC
 image: hugo-logo-wide.png
