@@ -2,7 +2,7 @@
 title: Create a blog with supabase and nextjs - part 3
 description: Lets build and use hooks to fetch the data
 image: pexels-anete-lusina-4792079.jpg
-date: 2023-03-20
+date: 2023-03-20 00:00:00 +0000 UTC
 categories:
   - tutorials
 tags:
@@ -190,4 +190,6 @@ const handleSubmit = async (title: string, body: string) => {
 
 The last step is to fetch the post and display them in the post page (`/posts/[id]`), based on the `id` in the url. To do that, we are going to do it differently and use the `getServerSideProps` function from Next.js.
 
-> Next step [lets do some SSR](/p/create-a-blog-with-supabase-and-nextjs-part-4/)
+<!-- > Next step [lets do some SSR](/p/create-a-blog-with-supabase-and-nextjs-part-4/) -->
+
+> Next step: coming soon

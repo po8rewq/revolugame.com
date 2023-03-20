@@ -64,6 +64,6 @@ jobs:
           username: ${{ vars.ftp_username }}
           sftp_only: true
           password: ${{ secrets.ftp_password }}
-          port: 22
+          port: ${{ vars.ftp_port }}
           remote_path: '/srv/users/revolugame/apps/revolugame/public'
           local_path: './public/*'
