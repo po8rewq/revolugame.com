@@ -10,6 +10,7 @@ on:
 
 jobs:
   build:
+    name: 🔧 Build Hugo site
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.111.2
@@ -47,14 +48,15 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
           name: release-artifact
           path: './public'
 
-      - name: Checkout
-        uses: actions/checkout@v2
       - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
