@@ -43,6 +43,4 @@ export const getServerSideProps = async (ctx: GetServerSidePropsContext) => {
 
 By using `getServerSideProps`, we can now fetch the post on the server and pass it to the component as a prop. Our `PostPage` component already have the `post` prop so we can just use it (see [part 2](/p/create-a-blog-with-supabase-and-nextjs-part-2/#the-post-page-and-the-edit-page-)).
 
-<!-- > Next step [we are going to deploy our blog](/p/create-a-blog-with-supabase-and-nextjs-part-5/) -->
-
-> Next step: coming soon
+> Next step [we are going to deploy our blog](/p/create-a-blog-with-supabase-and-nextjs-part-5/)
