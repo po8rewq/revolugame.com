@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent A Car UI Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Search for a rental car</h1>
+            <form>
+                <div class="form-group column">
+                    <label for="location">Pick up location</label>
+                    <input type="text" name="location" id="location" required
+                        placeholder="City, airport, region, district...">
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" />
+                        Deliver the car at a different location
+                    </label>
+                </div>
+
+                <div class="row">
+
+                    <div class="date-select">
+                        <label for="pickup">Pick up date</label>
+                        <input type="date" name="pickup-date" id="pickup-date" value="2022-03-26" required>
+                        <div class="time-select">
+                            <select name="pickup-hours" id="pickup-hours">
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                            </select>
+                            <select name="pickup-minutes" id="pickup-minutes">
+                                <option value="00">00</option>
+                                <option value="15">15</option>
+                                <option value="30">30</option>
+                                <option value="45">45</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="date-select">
+                        <label for="pickup">Delivery date</label>
+                        <input type="date" name="delivery-date" id="delivery-date" required value="2022-03-29">
+                        <div class="time-select">
+                            <select name="delivery-hours" id="delivery-hours">
+                                <option value="09">09</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                            </select>
+                            <select name="delivery-minutes" id="delivery-minutes">
+                                <option value="00">00</option>
+                                <option value="15">15</option>
+                                <option value="30">30</option>
+                                <option value="45">45</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" checked="checked" />The driver is between 30 and 65yo.
+                    </label>
+                </div>
+
+                <ul>
+                    <li>No credit card fees</li>
+                    <li>No change fees</li>
+                    <li>Price match guarantee</li>
+                </ul>
+
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
