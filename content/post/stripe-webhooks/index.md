@@ -9,7 +9,7 @@ tags:
   - stripe
 ---
 
-## Intro
+## Before we start
 
 Stripe webhooks enable receiving notifications when an event occurs in your stripe account, such as payment or subscription creation, customer creation, among others. 
 
