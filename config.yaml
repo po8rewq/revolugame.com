@@ -3,6 +3,7 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: RevoluGame
+timeout: 90s
 
 languages:
   en:
@@ -112,9 +113,9 @@ params:
 
     # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
     cactus:
-      defaultHomeserverUrl: 'https://matrix.cactus.chat:8448'
-      serverName: 'cactus.chat'
-      siteName: '' # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+      defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+      serverName: "cactus.chat"
+      siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
     giscus:
       repo:
