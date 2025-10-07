@@ -172,7 +172,7 @@ params:
 
   colorScheme:
     # Display toggle
-    toggle: false
+    toggle: true
 
     # Available values: auto, light, dark
     default: dark
@@ -197,12 +197,12 @@ menu:
       params:
         icon: brand-github
 
-    - identifier: twitter
-      name: Twitter
-      url: https://twitter.com/revolugame
-      weight: 20
-      params:
-        icon: brand-twitter
+    # - identifier: twitter
+    #   name: Twitter
+    #   url: https://twitter.com/revolugame
+    #   weight: 20
+    #   params:
+    #     icon: brand-twitter
 
     - identifier: linkedIn
       name: LinkedIn
