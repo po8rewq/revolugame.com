@@ -13,7 +13,7 @@ jobs:
     name: 🔧 Build Hugo site
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.132.2
+      HUGO_VERSION: 0.151.0
     steps:
       - name: Install Hugo CLI
         run: |
@@ -27,7 +27,7 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: '[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true'
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -55,7 +55,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: release-artifact
-          path: "./public"
+          path: './public'
 
       - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
@@ -64,5 +64,5 @@ jobs:
           username: ${{ vars.ftp_username }}
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ vars.ftp_port }}
-          remote_path: "/srv/users/revolugame/apps/revolugame/public"
-          local_path: "./public/*"
+          remote_path: '/srv/users/revolugame/apps/revolugame/public'
+          local_path: './public/*'
