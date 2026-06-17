@@ -15,28 +15,27 @@ So instead, every recurring chore in my homelab is its own small, independently-
 
 > **A note for muggles:** the repo behind all this is named `hogwarts`, and every agent gets sorted to match. Once you start naming services after wizards, it turns out you owe each one an in-character job description, whether it asked for one or not.
 
-**The standing watch.** Four observers poll continuously and report into one correlator every five minutes — this is the layer that exists so I find out about a problem before it becomes a 3am page instead of after:
+**The standing watch.** Four observers poll continuously and report into one correlator every five minutes. This is the layer that exists so I find out about a problem before it becomes a 3am page instead of after:
 
 - **Argus Filch** watches running Docker containers for restart loops, failed healthchecks, and containers that just quietly vanish.
 - **Astronomy Tower** polls Prometheus for firing alerts, down scrape targets, and recording rules that stopped working without telling anyone.
 - **Marauder's Map** scans the UniFi network for offline devices, WAN failover events, and firewall rules that drifted open.
 - **Mad-Eye's Watch** tracks TLS certificate expiry across configured endpoints. Constant vigilance: a warning at 30 days, a critical at 7.
-- **The Headmaster** is the one role on this list that isn't single-purpose by design — its entire job is reading what the other three decided was worth reporting and correlating that into one status, surfaced as an incident only when it's actually worth one.
+- **The Headmaster** is the one role on this list that isn't single-purpose by design. Its entire job is reading what the other four decided was worth reporting and correlating that into one status, surfaced as an incident only when it's actually worth one.
 
 **The daily and weekly chores.** These run on their own cron schedules and never talk to each other directly:
 
 - **Molly's Cupboard** reviews the Home Assistant entity list weekly: unavailable entities, missing or duplicate names, disabled automations. (Molly Weasley: keeps the household running, judges your clutter lovingly.)
-- **Peeves' Stash** cross-references Sonarr's on-disk episode files against Trakt watch history daily, and stays silent unless something *new* shows up. (The poltergeist: haunts the media server, won't let a finished episode rest in peace.)
-- **Rita's Desk** is the RSS morning digest — feeds in, previous day's articles out, ranked against persistent tag scores I vote on. Deterministic by design, no LLM in the loop. (Never met a headline she wouldn't print, but at least she always sources it.)
+- **Rita's Desk** is the RSS morning digest: feeds in, previous day's articles out, ranked against persistent tag scores I vote on. Deterministic by design, no LLM in the loop. (Never met a headline she wouldn't print, but at least she always sources it.)
 - **Kreacher's Kitchen** plans the week's meals from my recipe library and a couple of trusted cooking sites. (Grumbles the entire time, still gets dinner on the table.)
 - **The Library** picks a tech topic every night, gathers sources, and writes a 5-minute digest plus a 15-20 minute deep dive. (Lives in the package manifest as `research-digest`, but it spends every night in the Restricted Section, so the Library it is.)
-- **Sybill's Crystal Ball** divines upcoming movies and episodes from Trakt weekly and syncs them to a watchlist. (Make of that prophecy what you will.)
 - **Madam Pince's Catalogue** lists every running container and cross-checks it against the service directories in the infra repo, flagging any container that has no matching documentation. (A very particular librarian: every book gets catalogued, or it gets confiscated.)
 - **Dobby's Rounds** is the homelab's free elf: weekly housekeeping that prunes old snapshots, reports, and state files before they pile up.
-- **O.W.L.s** is the daily infrastructure audit — config drift, open ports, compliance — read-only and deliberately paranoid about it.
-- **Auror Office** is the daily cross-domain security digest, correlating O.W.L.s' findings with auth logs, Docker posture, and the network observers above into one report. (I've written about [how this one and O.W.L.s work together](/p/homelab-personal-soc/) in more detail elsewhere.)
+- **O.W.L.s** is the daily infrastructure audit: config drift, open ports, compliance. Read-only and deliberately paranoid about it. (Ordinary Wizarding Level exams: thorough, exhausting, and not interested in your excuses.)
+- **Auror Office** is the daily cross-domain security digest, correlating O.W.L.s' findings with auth logs, Docker posture, and the network observers above into one report. (No badge, but it does go looking for dark wizards. I've written about [how this one and O.W.L.s work together](/p/homelab-personal-soc/) in more detail elsewhere.)
+- **...and others**, including media management, recommendations, and a handful more in the same spirit. Small enough that listing every one of them would be its own blog post.
 
-Fifteen names, fifteen jobs. Outside of the two correlators built specifically to know about everyone else — the Headmaster and the Auror Office — not one of them needs to care that the rest exist.
+Thirteen-plus names, just as many jobs. Outside of the two correlators built specifically to know about everyone else — the Headmaster and the Auror Office — not one of them needs to care that the rest exist.
 
 ## The three conventions that make this work
 

@@ -3,6 +3,7 @@ title: "Running a Personal SOC: Bringing Production Security Practices Home"
 description: "Why I built a daily security audit and a cross-domain SOC digest for my homelab, and what running it taught me about deterministic-first, AI-assisted monitoring."
 date: 2026-06-12T10:00:00+01:00
 image: pexels-dan-nelson-1667453-4973899.jpg
+aliases: ["homelab-personal-soc"]
 tags:
   - homelab
   - security
@@ -20,7 +21,7 @@ The setup is split into two pieces with different jobs.
 **The daily audit** is the boring, deterministic layer. Once a day it collects, locally and read-only:
 
 - listening sockets, flagging anything bound to a wildcard interface
-- Docker/container posture - privileged containers, dangerous bind mounts, host network mode, dangerous capabilities
+- Docker/container posture: privileged containers, dangerous bind mounts, host network mode, dangerous capabilities
 - systemd service drift against an expected allowlist
 - a local secrets/config hygiene scan (path, line, and pattern only - never the matched value)
 - cached `apt list --upgradable`, optionally enriched with a `trivy fs` scan
