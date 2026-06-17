@@ -6,7 +6,7 @@ timeout: 90s
 
 security:
   allowContent:
-    - ".*"
+    - '.*'
 
 languages:
   en:
@@ -52,7 +52,7 @@ params:
 
   sidebar:
     emoji: 🤷‍♂️
-    subtitle: I'm a software and game developer.
+    subtitle: I'm a software developer and engineering manager.
     avatar: images/logo-revolugame.png
 
   article:
