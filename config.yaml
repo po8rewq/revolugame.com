@@ -4,6 +4,10 @@ theme: hugo-theme-stack
 title: RevoluGame
 timeout: 90s
 
+security:
+  allowContent:
+    - ".*"
+
 languages:
   en:
     label: English
@@ -34,7 +38,6 @@ permalinks:
 params:
   mainSections:
     - post
-  featuredImageField: image
   rssFullContent: true
   favicon: /shuttle.ico
   description: I build stuff and write about it
@@ -50,10 +53,7 @@ params:
   sidebar:
     emoji: 🤷‍♂️
     subtitle: I'm a software and game developer.
-    avatar:
-      enabled: true
-      local: true
-      src: images/logo-revolugame.png
+    avatar: images/logo-revolugame.png
 
   article:
     math: false
@@ -164,12 +164,6 @@ params:
       # Available values: summary, summary_large_image
       card: summary_large_image
 
-  defaultImage:
-    opengraph:
-      enabled: false
-      local: false
-      src:
-
   colorScheme:
     # Display toggle
     toggle: true
@@ -178,7 +172,7 @@ params:
     default: dark
 
   imageProcessing:
-    cover:
+    thumbnail:
       enabled: true
     content:
       enabled: true
