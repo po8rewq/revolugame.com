@@ -14,6 +14,54 @@ The stack runs across four machines. The bulk of Docker workloads are split betw
 
 The mental model that makes sense of the whole thing: everything gets served through Traefik, everything ships metrics to Prometheus, and Ntfy acts as the notification bus that ties async events together. Most of the rest are applications that plug into those three rails.
 
+| Category | Tools |
+|---|---|
+| Network | Tailscale, Traefik, CoreDNS |
+| Dev & CI/CD | Gitea, GitHub, Woodpecker CI, Docker Registry, WUD |
+| AI | Ollama, OpenWebUI |
+| Search | SearXNG |
+| Documents | Paperless-NGX, Paperless-AI |
+| Passwords | Vaultwarden |
+| Monitoring & management | Prometheus, Portainer, Homer |
+| Notifications & sharing | Ntfy, Pairdrop |
+| Home automation | Home Assistant, Frigate |
+
+```mermaid
+graph TD
+    subgraph pi4["Pi 4 — Network layer"]
+        TS[Tailscale]
+        TR[Traefik]
+        DNS[CoreDNS]
+    end
+
+    subgraph main["Mac Mini + Ubuntu — Services"]
+        GIT[Gitea]
+        WP[Woodpecker CI]
+        REG[Docker Registry]
+        WUD[WUD]
+        OLLAMA[Ollama]
+        OWU[OpenWebUI]
+        SEARX[SearXNG]
+        PAI[Paperless-AI]
+        PAPER[Paperless-NGX]
+        NTFY[Ntfy]
+    end
+
+    subgraph pi5["Pi 5 — Home automation"]
+        HA[Home Assistant]
+        FRIGATE[Frigate]
+    end
+
+    TS --> TR
+    GIT --> WP --> REG
+    WUD -->|alert| NTFY
+    OLLAMA --> OWU
+    OLLAMA --> PAI --> PAPER
+    OWU -->|search| SEARX
+    FRIGATE --> HA
+    HA -->|notify| NTFY
+```
+
 ## The foundation
 
 ### Traefik
@@ -24,7 +72,10 @@ Traefik handles Let's Encrypt certificate issuance and renewal. Services that ar
 
 ### Tailscale
 
-[Tailscale](https://tailscale.com/) is how every machine in the stack is reachable from outside the local network. All four machines are on the same Tailnet, which means I can reach any service from anywhere without opening ports or maintaining a VPN server. It's not self-hosted in the strict sense, the coordination server is Tailscale's, but the traffic itself is peer-to-peer and doesn't leave the devices. For a homelab, that trade-off is easy to accept.
+[Tailscale](https://tailscale.com/) is how every machine in the stack is reachable from outside the local network. All four machines are on the same Tailnet, which means I can reach any service from anywhere without opening ports or maintaining a VPN server.
+
+> [!NOTE]
+> Tailscale isn't fully self-hosted — the coordination server is Tailscale's. The traffic itself is peer-to-peer and never leaves the devices, but the key exchange goes through their infrastructure. For a homelab, that trade-off is easy to accept; for stricter control, [Headscale](https://headscale.net/) is the self-hosted alternative.
 
 ### CoreDNS
 
@@ -74,7 +125,8 @@ On top of that I run [Paperless-AI](https://github.com/clusterzx/paperless-ai), 
 
 [Vaultwarden](https://github.com/dani-garcia/vaultwarden) is a self-hosted Bitwarden-compatible server. All credentials live locally, sync across devices through the standard Bitwarden clients, and never touch a third-party server. It's one of those services where the self-hosted case is unusually strong: the upstream Bitwarden clients are excellent, Vaultwarden is a drop-in replacement, and keeping your password vault on your own hardware removes a meaningful point of trust.
 
-The backup story for this one warrants extra care - a password vault is the one thing you cannot lose and cannot recover from a partial backup. I wrote a [dedicated post about the backup architecture](/p/backing-up-the-one-credential-that-cant-be-wrong/) for anyone who wants the details.
+> [!TIP]
+> A password vault is the one thing you cannot lose and cannot recover from a partial backup. I wrote a [dedicated post about the backup architecture](/p/backing-up-the-one-credential-that-cant-be-wrong/) covering how I handle this specifically for Vaultwarden.
 
 ## Monitoring & management
 
