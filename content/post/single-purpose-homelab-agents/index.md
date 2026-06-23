@@ -11,6 +11,8 @@ tags:
 
 "Agent" has become one of those words that means everything and nothing this year. Before it was a hype term, I'd already ended up with a small flock of them in my homelab. Not because I was chasing a trend, but because I kept hitting the same wall every time I tried to write One Big Script: it grew a dozen unrelated responsibilities, and a bug in one of them risked taking down all of them.
 
+In short: I prefer many small, single-purpose automation agents over one large script because each agent has a narrow job, a clear output contract, and an independent schedule. The system stays maintainable because agents communicate through JSON artifacts, one notification channel, and one dashboard.
+
 So instead, every recurring chore in my homelab is its own small, independently-scheduled program. There turned out to be more of them than I expected once I actually sat down and counted.
 
 > **A note for muggles:** the repo behind all this is named `hogwarts`, and every agent gets sorted to match. Once you start naming services after wizards, it turns out you owe each one an in-character job description, whether it asked for one or not.

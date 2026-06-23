@@ -17,6 +17,8 @@ menu:
 
 **Engineering Manager.** Software developer at heart.
 
+I'm Adrien Fischer, the person behind RevoluGame. I write about software engineering, engineering leadership, homelab infrastructure, local AI workflows, web development, and the game projects I build on the side.
+
 I lead teams of 5 to 15 engineers building SaaS products, and I still write code. **TypeScript** is my language of choice; **Python** shows up when the job calls for it.
 
 As a manager I care about clear direction, fast feedback loops, and engineers who grow. As a builder I care about shipping things that actually work and hold up.
@@ -31,6 +33,22 @@ This blog is where I document what I learn: frameworks, homelab experiments, and
 - **Full-stack TypeScript**: Node.js, React, Next.js, from prototype to production
 - **Technical depth**: staying hands-on as a manager, bridging product and engineering
 - **Developer experience**: tooling, processes, and culture that help teams ship faster
+
+## Topics I write about
+
+- **Homelab and self-hosting**: practical infrastructure, monitoring, backups, local services, and operational habits
+- **AI workflows**: using AI assistants with real project context, documentation, notes, and local tooling
+- **Web development**: TypeScript, React, Next.js, Supabase, APIs, and deployment patterns
+- **Engineering leadership**: team direction, delivery, feedback loops, and developer experience
+- **Game projects**: prototypes, Ludum Dare entries, Pico-8 experiments, and older Flash/HTML5 games
+
+## Good starting points
+
+- [My homelab stack in 2026](/p/my-homelab-stack-in-2026-what-runs-why-and-how-it-all-connects/)
+- [How I Use Obsidian for Work, Personal Life, and AI](/p/how-i-use-obsidian-for-work-personal-life-and-ai/)
+- [Designing Single-Purpose Agents Instead of One Big Automation Script](/p/designing-single-purpose-agents-instead-of-one-big-automation-script/)
+- [Backing Up the One Credential That Can't Be Wrong](/p/backing-up-the-one-credential-that-cant-be-wrong/)
+- [Projects](/projects/)
 
 ## Tech I work with 💻
 

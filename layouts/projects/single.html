@@ -26,6 +26,38 @@
 {{ define "main" }}
     {{ partial "article/article.html" . }}
 
+    {{ if or .Params.status .Params.stack .Params.projectUrl .Params.sourceUrl }}
+        <section class="article-content project-meta">
+            <h2>Project details</h2>
+            <dl>
+                {{ with .Params.status }}
+                    <div>
+                        <dt>Status</dt>
+                        <dd>{{ . }}</dd>
+                    </div>
+                {{ end }}
+                {{ with .Params.stack }}
+                    <div>
+                        <dt>Stack</dt>
+                        <dd>{{ delimit . ", " }}</dd>
+                    </div>
+                {{ end }}
+                {{ with .Params.projectUrl }}
+                    <div>
+                        <dt>Project</dt>
+                        <dd><a href="{{ . }}" rel="noopener" target="_blank">{{ . }}</a></dd>
+                    </div>
+                {{ end }}
+                {{ with .Params.sourceUrl }}
+                    <div>
+                        <dt>Source code</dt>
+                        <dd><a href="{{ . }}" rel="noopener" target="_blank">{{ . }}</a></dd>
+                    </div>
+                {{ end }}
+            </dl>
+        </section>
+    {{ end }}
+
     {{ if .Params.links }}
         {{ partial "article/components/links" . }}
     {{ end }}

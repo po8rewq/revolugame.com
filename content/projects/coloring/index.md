@@ -1,5 +1,16 @@
 ---
 title: "Coloring"
+description: "A puzzle game inspired by Tetris and Threes where players merge colors to unlock new ones."
+image: coloring-1.png
+status: "Released"
+stack:
+  - Flash
+  - Android
+projectUrl: "https://revolugame.itch.io/coloring"
+tags:
+  - puzzle-game
+  - android
+  - itch-io
 aliases: ["/coloring.html"]
 ---
 

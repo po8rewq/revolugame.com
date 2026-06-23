@@ -11,9 +11,9 @@ readingTime: false
 <div class="grid projects">
 
 <div>
-<a href="/projects/job-search-aggregator" target="_blank"><img src="job-aggregator.png" /></a>
+<a href="/projects/job-search-aggregator"><img src="job-aggregator.png" /></a>
 <div class="work-title">
-<a href="/projects/job-search-aggregator" target="_blank">Job Search Aggregator</a>
+<a href="/projects/job-search-aggregator">Job Search Aggregator</a>
 </div>
 <div class="work-details">
 <div>Web application</div>
@@ -23,9 +23,9 @@ readingTime: false
 </div>
 
 <div>
-<a href="https://sportcollab.com" target="_blank"><img src="sport-collab.png" /></a>
+<a href="#"><img src="sport-collab.png" /></a>
     <div class="work-title">
-      <a href="https://sportcollab.com" target="_blank">SportCollab</a>
+      <a href="#">[RIP] SportCollab</a>
     </div>
     <div class="work-details">
       <div>Web application, PWA</div>

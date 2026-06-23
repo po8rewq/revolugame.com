@@ -11,6 +11,8 @@ tags:
 
 Over the years, I've tried countless productivity tools, note-taking systems, and documentation platforms.
 
+In short: I use Obsidian as the central place where notes, project documentation, meeting summaries, infrastructure knowledge, and AI-ready context come together. The goal is not just to store information, but to make it reusable by both me and the AI assistants I work with.
+
 Most of them failed for the same reason: information ended up scattered across multiple locations.
 
 Meeting notes lived in one tool. Documentation lived somewhere else. Tasks were tracked separately. Project knowledge slowly disappeared into chat conversations and ticket systems. I would often remember that a useful decision had been made, but not whether it was buried in Slack, a meeting doc, a ticket comment, or a notebook page.

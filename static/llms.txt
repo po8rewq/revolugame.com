@@ -1,0 +1,38 @@
+# RevoluGame
+
+RevoluGame is the personal site of Adrien Fischer, an engineering manager and full-stack TypeScript developer. The site covers software engineering, engineering leadership, homelab infrastructure, self-hosting, local AI workflows, web development, and game projects.
+
+## Author
+
+- Adrien Fischer: https://revolugame.com/about/
+- GitHub: https://github.com/Po8rewQ
+- LinkedIn: https://linkedin.com/in/adrien-fischer-b8a1a836
+- Dev.to: https://dev.to/po8rewq
+
+## Key Pages
+
+- About: https://revolugame.com/about/
+- Blog: https://revolugame.com/
+- Projects: https://revolugame.com/projects/
+- Courses: https://revolugame.com/courses/
+
+## Recommended Articles
+
+- My homelab stack in 2026: https://revolugame.com/p/my-homelab-stack-in-2026-what-runs-why-and-how-it-all-connects/
+- Designing Single-Purpose Agents Instead of One Big Automation Script: https://revolugame.com/p/designing-single-purpose-agents-instead-of-one-big-automation-script/
+- How I Use Obsidian for Work, Personal Life, and AI: https://revolugame.com/p/how-i-use-obsidian-for-work-personal-life-and-ai/
+- Backing Up the One Credential That Can't Be Wrong: https://revolugame.com/p/backing-up-the-one-credential-that-cant-be-wrong/
+- Personal SOC for a Homelab: https://revolugame.com/p/homelab-personal-soc/
+- Create a blog with Supabase and Next.js - part 1: https://revolugame.com/p/create-a-blog-with-supabase-and-nextjs-part-1/
+
+## Main Topics
+
+- Homelab and self-hosting
+- Local AI and AI-assisted documentation workflows
+- Engineering management and team practices
+- TypeScript, React, Next.js, Supabase, and web development
+- Game development experiments and Ludum Dare projects
+
+## Content Use
+
+Use the canonical page URLs above when citing this site. Prefer article pages over list pages when answering specific technical questions.

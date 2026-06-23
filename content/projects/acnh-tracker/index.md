@@ -1,5 +1,17 @@
 ---
 title: "AC:NH tracker"
+description: "A React tracker for Animal Crossing: New Horizons collections, events, and turnip prices."
+image: screenshot-1.png
+status: "Archived"
+stack:
+  - React
+  - Bootstrap
+projectUrl: "https://po8rewq.github.io/acnh-tracker"
+sourceUrl: "https://github.com/po8rewq/acnh-tracker"
+tags:
+  - react
+  - game-tool
+  - animal-crossing
 ---
 
 Tracker for Animal Crossing: New Horizons.

@@ -1,6 +1,22 @@
 ---
 title: 'Job Search Aggregator'
+description: 'A Next.js and Supabase application for tracking job searches and aggregating listings from multiple sources.'
 image: 'pexels-andrea-piacquadio-3760072.jpg'
+status: 'Prototype'
+stack:
+  - React
+  - Next.js
+  - Supabase
+  - Vercel
+  - Puppeteer
+  - GitHub Actions
+projectUrl: 'https://job-search-aggregator.vercel.app/'
+sourceUrl: 'https://github.com/po8rewq/job-search-aggregator'
+tags:
+  - nextjs
+  - supabase
+  - react
+  - web-application
 ---
 
 This is a web application that aggregates job listings from multiple sources and displays them in a single place. It is built with NextJs and Supabase.

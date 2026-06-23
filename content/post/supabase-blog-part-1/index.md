@@ -14,6 +14,8 @@ tags:
 
 > If you want to jump straight to the source code, here's the link to the [github repository](https://github.com/po8rewq/tuto-blog-nextjs-supabase).
 
+In short: this tutorial starts a Next.js and Supabase blog application from scratch. It covers project setup, Supabase initialization, the first database table, row-level security policies, and the initial Next.js page structure.
+
 ## Introduction
 
 In this tutorial, we will build a simple blogging application using Next.js and Supabase. [Next.js](https://nextjs.org/) is a popular React framework for building server-side rendered and statically generated web applications, while [Supabase](https://supabase.com/) is an open source Firebase alternative that provides a PostgreSQL database and authentication APIs out of the box. By combining these technologies, we can easily create a performant and scalable blogging platform.

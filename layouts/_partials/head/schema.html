@@ -1,0 +1,99 @@
+{{- $author := .Site.Params.author -}}
+{{- $authorName := default .Site.Title $author.name -}}
+{{- $authorURL := default .Site.BaseURL $author.url -}}
+{{- $authorID := printf "%s#person" $authorURL -}}
+{{- $graph := slice -}}
+
+{{- $person := dict
+    "@type" "Person"
+    "@id" $authorID
+    "name" $authorName
+    "url" $authorURL
+    "jobTitle" $author.jobTitle
+    "sameAs" $author.sameAs
+-}}
+{{- $graph = $graph | append $person -}}
+
+{{- $website := dict
+    "@type" "WebSite"
+    "@id" (printf "%s#website" .Site.BaseURL)
+    "url" .Site.BaseURL
+    "name" .Site.Title
+    "description" .Site.Params.description
+    "publisher" (dict "@id" $authorID)
+-}}
+{{- $graph = $graph | append $website -}}
+
+{{- if not .IsHome -}}
+    {{- $items := slice
+        (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL)
+    -}}
+    {{- if .Section -}}
+        {{- $items = $items | append (dict "@type" "ListItem" "position" 2 "name" (.Section | title) "item" (absURL (printf "%s/" .Section))) -}}
+        {{- $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink) -}}
+    {{- else -}}
+        {{- $items = $items | append (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink) -}}
+    {{- end -}}
+    {{- $graph = $graph | append (dict
+        "@type" "BreadcrumbList"
+        "@id" (printf "%s#breadcrumb" .Permalink)
+        "itemListElement" $items
+    ) -}}
+{{- end -}}
+
+{{- if and .IsPage (eq .RelPermalink "/about/") -}}
+    {{- $graph = $graph | append (dict
+        "@type" "ProfilePage"
+        "@id" (printf "%s#profile" .Permalink)
+        "url" .Permalink
+        "name" .Title
+        "description" (partialCached "data/description" . .RelPermalink)
+        "mainEntity" (dict "@id" $authorID)
+    ) -}}
+{{- else if and .IsPage (eq .Section "post") -}}
+    {{- $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) -}}
+    {{- $post := dict
+        "@type" "BlogPosting"
+        "@id" (printf "%s#article" .Permalink)
+        "mainEntityOfPage" .Permalink
+        "headline" .Title
+        "description" (partialCached "data/description" . .RelPermalink)
+        "url" .Permalink
+        "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")
+        "dateModified" (.Lastmod.Format "2006-01-02T15:04:05-07:00")
+        "author" (dict "@id" $authorID)
+        "publisher" (dict "@id" $authorID)
+        "keywords" .Params.tags
+    -}}
+    {{- with $image -}}
+        {{- $post = merge $post (dict "image" (absURL .Permalink)) -}}
+    {{- end -}}
+    {{- $graph = $graph | append $post -}}
+{{- else if and .IsPage (eq .Section "projects") -}}
+    {{- $image := partial "helper/image" (dict "Image" .Params.image "Resources" .Resources "Context" .) -}}
+    {{- $project := dict
+        "@type" "CreativeWork"
+        "@id" (printf "%s#project" .Permalink)
+        "name" .Title
+        "description" (partialCached "data/description" . .RelPermalink)
+        "url" .Permalink
+        "author" (dict "@id" $authorID)
+        "creator" (dict "@id" $authorID)
+        "keywords" .Params.tags
+    -}}
+    {{- with .Params.stack -}}
+        {{- $project = merge $project (dict "programmingLanguage" .) -}}
+    {{- end -}}
+    {{- with .Params.projectUrl -}}
+        {{- $project = merge $project (dict "sameAs" .) -}}
+    {{- end -}}
+    {{- with .Params.sourceUrl -}}
+        {{- $project = merge $project (dict "codeRepository" .) -}}
+    {{- end -}}
+    {{- with $image -}}
+        {{- $project = merge $project (dict "image" (absURL .Permalink)) -}}
+    {{- end -}}
+    {{- $graph = $graph | append $project -}}
+{{- end -}}
+
+{{- dict "@context" "https://schema.org" "@graph" $graph | jsonify -}}

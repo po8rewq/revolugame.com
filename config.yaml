@@ -41,6 +41,15 @@ params:
   rssFullContent: true
   favicon: /shuttle.ico
   description: I build stuff and write about it
+  author:
+    name: Adrien Fischer
+    url: https://revolugame.com/about/
+    jobTitle: Engineering Manager and Full-Stack TypeScript Developer
+    sameAs:
+      - https://github.com/Po8rewQ
+      - https://linkedin.com/in/adrien-fischer-b8a1a836
+      - https://dev.to/po8rewq
+      - https://revolugame.itch.io/
 
   footer:
     since: 2009

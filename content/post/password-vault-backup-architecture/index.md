@@ -11,6 +11,8 @@ tags:
 
 Most things in my homelab can fail and I shrug. A container restarts, a dashboard is stale for an hour, a media file gets deleted by mistake: annoying, recoverable, fine. The password vault is not in that category. If it's wrong, or gone, or merely unreachable at the wrong moment, I lose access to everything else at once. It's the one piece of infrastructure that earns the extra paranoia.
 
+In short: my password vault backup strategy keeps three copies that survive different failure modes: the primary vault, a live self-hosted Vaultwarden mirror, and an offline KeePass archive. The important part is not the number of backups, but making sure they do not all fail for the same reason.
+
 So instead of "back it up somewhere," I sat down and asked the question I'd ask at work for any single point of failure: *which specific failure does each copy need to survive?* That question is what actually shaped the design. Not "more backups."
 
 ## Three copies, three different failure modes

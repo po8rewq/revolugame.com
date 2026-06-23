@@ -10,6 +10,8 @@ tags:
 
 I'm not going to make the case for self-hosting here. If you're reading this, you already get it. What I want to do instead is be honest about what I actually run, why I made the specific choices I made, and - more interestingly - how the pieces talk to each other in ways that weren't always planned from the start.
 
+In short: my 2026 homelab runs on a mix of Raspberry Pis, a Mac Mini, and an Ubuntu mini PC. Traefik handles routing, Tailscale provides remote access, Prometheus watches the stack, Ntfy connects notifications, and local AI runs through Ollama and OpenWebUI.
+
 The stack runs across four machines. The bulk of Docker workloads are split between a Mac Mini and an Ubuntu mini PC. Network infrastructure - Traefik and CoreDNS - runs on a Raspberry Pi 4, which also handles the NUT server for UPS management; keeping the network layer on its own always-on hardware means a container crash elsewhere doesn't take down routing or DNS. Home Assistant runs on a Raspberry Pi 5 with the Hailo 8 AI HAT. [Frigate](https://frigate.video/) runs alongside it as a Home Assistant add-on, which is what gives it direct access to the Hailo 8 for hardware-accelerated camera object detection - no GPU needed in the main machines for that workload.
 
 The mental model that makes sense of the whole thing: everything gets served through Traefik, everything ships metrics to Prometheus, and Ntfy acts as the notification bus that ties async events together. Most of the rest are applications that plug into those three rails.

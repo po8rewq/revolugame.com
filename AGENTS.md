@@ -45,10 +45,19 @@ tags:
 
 **Custom layouts:** `layouts/projects/` overrides the theme's project list and single templates.
 
+**AEO / AI SEO:** The site has an answer-engine optimization layer that should be preserved when changing content, layouts, or theme overrides.
+- `layouts/_partials/head/custom.html` injects JSON-LD through the Stack theme's supported custom head hook.
+- `layouts/_partials/head/schema.html` generates `Person`, `WebSite`, `ProfilePage`, `BlogPosting`, `CreativeWork`, and `BreadcrumbList` structured data.
+- Do not copy or override `themes/hugo-theme-stack/layouts/_partials/head/head.html` just to add metadata. Use `layouts/_partials/head/custom.html` so future Stack theme updates remain compatible.
+- Keep the canonical author/entity data in `config.yaml` under `params.author` accurate.
+- Keep `static/robots.txt` and `static/llms.txt` aligned with the site's canonical URLs and key topic pages.
+- New or updated posts should include a clear `description`, `date`, useful `tags`, and an early 2-4 sentence answer-ready summary that states the main takeaway directly.
+- New or updated project pages should include `description`, `status`, `stack`, `projectUrl`, `sourceUrl` when available, and useful `tags`; `layouts/projects/single.html` renders these as visible project details and schema uses them.
+- Topic/identity pages such as `content/page/about.md` and `content/page/topics.md` should link to the best supporting posts and projects, keeping the site's expertise areas explicit.
+- After AEO-related changes, run `hugo` and check that generated JSON-LD remains valid if templates changed.
+
 **Custom assets:**
 - `assets/scss/custom.scss` — site-wide SCSS overrides on top of the theme
 - `assets/icons/` — custom SVG icons (coffee, news, notebook, package, brand-linkedin)
 
 **Permalinks** are configured as `/p/:slug/` for posts and `/:slug/` for pages.
-
-## Imported Claude Cowork project instructions
