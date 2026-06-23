@@ -3,6 +3,8 @@ title: "Designing a Homelab Backup Strategy I Can Actually Trust"
 description: "A practical backup architecture for my homelab: NAS, Time Machine, Home Assistant, Docker apps, cloud storage, offline USB disks, and the restore tests that make the whole thing real."
 date: 2026-06-23T10:00:00+01:00
 image: cover-image.png
+categories:
+  - homelab
 tags:
   - homelab
   - backup

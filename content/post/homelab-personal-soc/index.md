@@ -4,6 +4,8 @@ description: "Why I built a daily security audit and a cross-domain SOC digest f
 date: 2026-06-12T10:00:00+01:00
 image: pexels-dan-nelson-1667453-4973899.jpg
 aliases: ["homelab-personal-soc"]
+categories:
+  - homelab
 tags:
   - homelab
   - security

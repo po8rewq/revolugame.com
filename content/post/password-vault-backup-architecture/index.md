@@ -3,6 +3,8 @@ title: "Backing Up the One Credential That Can't Be Wrong"
 description: "A threat-modeled backup architecture for a password vault: why one copy is never enough, and why more copies aren't automatically better."
 date: 2026-06-15T10:00:00+01:00
 image: pexels-padrinan-2882630.jpg
+categories:
+  - homelab
 tags:
   - homelab
   - security

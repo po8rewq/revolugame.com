@@ -3,6 +3,8 @@ title: "My homelab stack in 2026: what runs, why, and how it all connects"
 description: "A tour of my self-hosted infrastructure - from reverse proxy to local AI, CI/CD pipelines, document management, and home automation."
 date: 2026-06-20T10:00:00+01:00
 image: pexels-cookiecutter-37605910.jpg
+categories:
+  - homelab
 tags:
   - homelab
   - selfhosted

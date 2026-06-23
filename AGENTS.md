@@ -52,6 +52,7 @@ tags:
 - Keep the canonical author/entity data in `config.yaml` under `params.author` accurate.
 - Keep `static/robots.txt` and `static/llms.txt` aligned with the site's canonical URLs and key topic pages.
 - New or updated posts should include a clear `description`, `date`, useful `tags`, and an early 2-4 sentence answer-ready summary that states the main takeaway directly.
+- When publishing a new non-draft post, check `content/page/topics.md` and add the post to the relevant manual topic section if it is one of the best supporting posts for that area. Do not add links for posts that remain `draft: true`, because they will not be available in production builds.
 - New or updated project pages should include `description`, `status`, `stack`, `projectUrl`, `sourceUrl` when available, and useful `tags`; `layouts/projects/single.html` renders these as visible project details and schema uses them.
 - Topic/identity pages such as `content/page/about.md` and `content/page/topics.md` should link to the best supporting posts and projects, keeping the site's expertise areas explicit.
 - After AEO-related changes, run `hugo` and check that generated JSON-LD remains valid if templates changed.

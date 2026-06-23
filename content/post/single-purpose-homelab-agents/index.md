@@ -3,6 +3,8 @@ title: "Designing Single-Purpose Agents Instead of One Big Automation Script"
 description: "What a flock of small, narrowly-scoped homelab agents taught me about service boundaries - written before 'agent' became the word of the year."
 date: 2026-06-17T10:00:00+01:00
 image: pexels-introspectivedsgn-22043568.jpg
+categories:
+  - homelab
 tags:
   - homelab
   - architecture

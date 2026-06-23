@@ -17,6 +17,7 @@ RevoluGame is organized around a few recurring themes: practical software engine
 
 Posts about running personal infrastructure, choosing boring tools, monitoring services, backing up critical data, and building small automations that are easy to reason about.
 
+- [Designing a Homelab Backup Strategy I Can Actually Trust](/p/designing-a-homelab-backup-strategy-i-can-actually-trust/)
 - [My homelab stack in 2026](/p/my-homelab-stack-in-2026-what-runs-why-and-how-it-all-connects/)
 - [Designing Single-Purpose Agents Instead of One Big Automation Script](/p/designing-single-purpose-agents-instead-of-one-big-automation-script/)
 - [Backing Up the One Credential That Can't Be Wrong](/p/backing-up-the-one-credential-that-cant-be-wrong/)
