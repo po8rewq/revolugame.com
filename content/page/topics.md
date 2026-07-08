@@ -28,6 +28,7 @@ Posts about running personal infrastructure, choosing boring tools, monitoring s
 Posts about using AI assistants with useful context instead of treating them like isolated chat boxes. The focus is documentation, knowledge management, local AI, and workflows that still keep a human review step.
 
 - [How I Use Obsidian for Work, Personal Life, and AI](/p/how-i-use-obsidian-for-work-personal-life-and-ai/)
+- [From Prompts to Pipelines: How I Use Agentic Coding as an Engineering Workflow](/p/from-prompts-to-pipelines-how-i-use-agentic-coding-as-an-engineering-workflow/)
 - [My homelab stack in 2026](/p/my-homelab-stack-in-2026-what-runs-why-and-how-it-all-connects/)
 
 ## Web development
