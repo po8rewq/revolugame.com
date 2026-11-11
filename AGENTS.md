@@ -15,11 +15,11 @@ hugo
 hugo new post/my-post-title/index.md
 ```
 
-The theme is installed as a git submodule at `themes/hugo-theme-stack`. To update it, download the latest release from the [hugo-theme-stack repo](https://github.com/CaiJimmy/hugo-theme-stack/releases/latest) and replace the directory.
+The theme is vendored at `themes/hugo-theme-stack`. To update it, download the latest release from the [hugo-theme-stack repo](https://github.com/CaiJimmy/hugo-theme-stack/releases/latest) and replace the directory.
 
 ## Deployment
 
-Pushes to `main` trigger a GitHub Actions workflow (`.github/workflows/hugo.yml`) that builds with Hugo 0.161.1 (extended) and deploys to GitHub Pages. The `./public` directory is the build artifact — don't commit it manually.
+Pushes to `main` trigger a GitHub Actions workflow (`.github/workflows/hugo.yml`) that builds with Hugo 0.169.0 (extended) and deploys to GitHub Pages. The `./public` directory is the build artifact — don't commit it manually.
 
 ## Architecture
 
