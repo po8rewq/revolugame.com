@@ -2,8 +2,8 @@
 title: "How I Use an LLM With Home Assistant Without Oversharing"
 description: "A short look at the two-repository, privacy-first setup I use to give an LLM limited access to my Home Assistant configuration."
 image: cover-image.png
-date: 2026-11-10T10:00:00+01:00
-draft: true
+date: 2026-11-11T10:00:00+01:00
+draft: false
 categories:
   - homelab
 tags:
